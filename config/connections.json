@@ -1,0 +1,11 @@
+{
+    "data_warehouse_connection": {
+        "conn_type": "postgres",
+        "login": "postgres",
+        "password": "postgres",
+        "host": "postgres-data-warehouse",
+        "port": 5432,
+        "schema": "postgres",
+        "extra": null
+    }
+}
