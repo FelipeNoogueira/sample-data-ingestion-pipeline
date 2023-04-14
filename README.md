@@ -50,6 +50,8 @@ If the final output is 'Configs were imported!', everything should have worked a
 docker ps
 ```
 
-As soon as you've verified that your containers are running and healthy, there's only one last thing to do. Access Airflow's Web UI on your Web Browser by typing: **localhost:8080**. You should see this screen:
+Next, access Airflow's Web UI on your Web Browser by typing: **localhost:8080**. After loging in by typing 'airflow' for both username and password, you should get to this screen:
 
 <img src="Airflow_Web_UI.png" alt="exemplo imagem">
+
+Finally, click on both DAGs' toggles to unpause them and that's it! Your DAGs should immediately start collecting data from the API and populating a table in your Data Warehouse.
